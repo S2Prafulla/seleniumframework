@@ -58,7 +58,7 @@ public class VerifyHomePage {
 	@AfterMethod
 
 	public void tearDown() {
-
+            // this is browser closing code
 		driver.close();
 	}
 
