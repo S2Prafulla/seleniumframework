@@ -59,7 +59,7 @@ public class VerifyHomePage {
 
 	public void tearDown() {
 
-		driver.quit();
+		driver.close();
 	}
 
 
